@@ -1,0 +1,13 @@
+<div id="wrapper" class="night-background">
+    <div class="container center-align valign-wrapper" style="height: 100vh;">
+        <div class="valign animated fadeInDown" style="width: 100%;">
+           <div class="flow-text">
+               <h1>Et bim !</h1>
+               <p>
+                   Comptez les dodos jusqu'à {{event.title}} en cliquant sur le lien suivant.
+               </p>
+               <p><a ui-sref="show({slug: event.slug, event: event})">{{getUrl(event.slug)}}</a></p>
+           </div>
+        </div>
+    </div>
+</div>

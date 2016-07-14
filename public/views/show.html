@@ -1,0 +1,12 @@
+<div id="wrapper" class="night-background">
+    <div class="container center-align valign-wrapper" style="height: 100vh;">
+        <div class="valign animated fadeInDown" style="width: 100%;">
+           <div class="flow-text" ng-show="count >= 0">
+               <p>Plus que {{count}} dodos avant {{event.title}}.</p>
+           </div>
+            <div class="flow-text" ng-show="count < 0">
+                <p>{{event.title | capitalize}}, c'était il y a {{count*-1}} dodos.</p>
+            </div>
+        </div>
+    </div>
+</div>
